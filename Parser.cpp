@@ -3,7 +3,7 @@
 #include <map>
 #include <fstream>
 #include "HackCodeTranslation.h"
-#include "HackParser.h"
+#include "Parser.h"
 
 using namespace std;
 using namespace hackassembler;

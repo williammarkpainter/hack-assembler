@@ -1,12 +1,12 @@
 /*
-    HackProgram as part of the HackAssembler, is a basic structure for 
-        hollding the binary code once translate.
+    HackCode is part of the HackAssembler, is a basic structure for 
+        hollding the binary code once translated.
         This binary code is then outputted as a string of '0' and '1' chars to a text file
 */
 
 #include <string>
 #include <iostream>
-#include "HackProgram.h"
+#include "HackCode.h"
 #include <queue>
 
 

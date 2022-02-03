@@ -34,7 +34,7 @@ string FileManager::getOutputFileName(){return outputFileName;}
 bool FileManager::isInputFileOpen(){return inputFileOpen;}
 bool FileManager::isOutputFileOpen(){return outputFileOpen;}
 bool FileManager::isValidFileName(){return validFileName;}
-fstream FileManager::*refInputFile(){return ptr_inputFile;}
+
 /*
     setFileNames: check if the input name is valid, then creates outout file names
 */

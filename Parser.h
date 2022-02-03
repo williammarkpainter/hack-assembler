@@ -22,7 +22,7 @@ private:
     int instructionCount;
     
 public:
-    Parser(fstream inputFile);
+    Parser(fstream *inputFile);
     ~Parser();
     bool hasMoreCommands();
     void advance();

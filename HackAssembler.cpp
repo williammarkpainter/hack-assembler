@@ -10,10 +10,10 @@
 #include <fstream>
 //#include "hackHelper.cpp"
 #include "FileManager.h"            // Provide the read and write functionlaity for the input (.asm) and output (.hack) files
-#include "HackProgram.h"            // Provide the class and functionality to store the machine code in vector of vector 16 bools (needs to be optimised to 16 bit) 
+#include "HackCode.h"            // Provide the class and functionality to store the machine code in vector of vector 16 bools (needs to be optimised to 16 bit) 
 #include "HackCodeTranslation.h"    // Return the Op codes for translation of Assembly Code strings value to components of the machine code, operates in structs with arrays of bools (needs to be optimised to bits)
 #include "SymbolTable.h"            // Tracks the RAM and ROM locations of pre-define symbols (RAM), user variables (RAM), and Labels (ROM)
-#include "HackParser.h"             // Parses each line in the input file
+#include "Parser.h"             // Parses each line in the input file
 
 using namespace std;
 using namespace hackassembler;
@@ -77,6 +77,7 @@ int main(int argc, char *argv[]){
 
     // Second Pass to wirte program to file
     HackCode hackCode;
+    hackCode.popLineToString();
   
     cout << "Great Success!!! About to exit..." << endl;
 

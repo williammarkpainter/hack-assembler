@@ -17,9 +17,9 @@ private:
     string sourceFileName;
     string baseFileName;
     string outputFileName;
-    ofstream inputFile;
-    ofstream *ptr_inputFile;
-    ofstream outputFile;
+    fstream inputFile;
+    fstream *ptr_inputFile;
+    fstream outputFile;
 public:
     FileManager(string fileName);
     ~FileManager();
@@ -35,7 +35,7 @@ public:
     bool openOutputFile();
     bool closeInputFile();
     bool closeOutputFile();
-    ofstream *refInputFile();
+    fstream *refInputFile(){return ptr_inputFile;};
 };
 
 } /* namespace hackassembler */
