@@ -11,7 +11,7 @@ namespace hackassembler{
 
 struct HackLineOfCode
 {
-    bool arr[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+    bool arr[16];
 };
 
 

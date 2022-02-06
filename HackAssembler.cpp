@@ -70,12 +70,13 @@ int main(int argc, char *argv[]){
 
 
     // First Pass of File to build Symbol Table for labels
-
+    cout << "Testing Symbol Table:" << endl;
     SymbolTable symbolTable;
     symbolTest(&symbolTable);
 
 
     // Second Pass to wirte program to file
+    cout << "Testing HackCode:" << endl;
     HackCode hackCode;
     hackCode.popLineToString();
   
@@ -85,7 +86,7 @@ int main(int argc, char *argv[]){
 }
 
 void testAdd(HackCode *hackCode){
-    HackLineOfCode temp1;
+    HackLineOfCode temp;
     //temp1.arr[] = {1,0,1,0,0,0,1,0,0,1,1,0,0,1,0,1};
     for(int i = 0; i < 100; i++){
         HackLineOfCode temp;
