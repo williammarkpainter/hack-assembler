@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  HackAssembler.cpp
+C:\Users\Mark Painter\OneDrive\Study\nand2tetris\projects\06\cpp-vs\HackAssembler\ConsoleApplication1\HackAssembler.cpp(202,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mark Painter\OneDrive\Study\nand2tetris\projects\06\cpp-vs\HackAssembler\ConsoleApplication1\HackAssembler.cpp(264,20): warning C4101: 'temp': unreferenced local variable
+  ConsoleApplication1.vcxproj -> C:\Users\Mark Painter\OneDrive\Study\nand2tetris\projects\06\cpp-vs\HackAssembler\Debug\HackAssembler.exe
